@@ -1,0 +1,93 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+
+.detail img{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    display: block;
+}
+
+.detail-box{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+
+}
+
+.detail-box .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-box h2{
+    color: #844492;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+
+.detail-box p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+.detail-box span{
+    color: darkred;
+}
+
+.detail-box .cart{
+    background: #844492;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 0.55rem;
+}
+.detail-links{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.currently{
+    background: #ad7e6c !important;
+}
+
+.read{
+    background: #816634 !important;
+}
+
+.none{
+    display: none;
+}
+
+.buy-cart {
+    animation: glowing 1300ms infinite;
+  }
+  
+
+@keyframes glowing {
+    0% {
+      background-color: #844492;
+      box-shadow: 0 0 3px #844492;
+    }
+    50% {
+      background-color: #a453b6;
+      box-shadow: 0 0 10px #a453b6;
+    }
+    100% {
+      background-color: #844492;
+      box-shadow: 0 0 3px #844492;
+    }
+  }

@@ -1,0 +1,45 @@
+.review-item{
+    border: 2px solid #5a4c2e;
+    width: 100%;
+    height: 20vh;
+    margin-top: 1rem;
+    padding: 5px 5px;
+    box-shadow: 0 0 15px #ddd;
+    position: relative;
+}
+
+.review-card button{
+    background: #9a50aa;
+    width: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+    transition: all 0.3s linear;
+}
+
+.review-card button:hover{
+    background-color: #bf60d4;
+}
+/*--------------- Review Item ----------------*/
+
+
+.review-item button{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    padding: 5px 5px;
+    margin: 5px 8px;
+    width: 10%;
+    background: #816634;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.review-item .review-update{
+    right: 8.5rem;
+    background: #ad7e6c;
+}
