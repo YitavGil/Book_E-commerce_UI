@@ -39,14 +39,15 @@
 
 #user-img{
     position: absolute;
-    top: 5rem;
-    left: 24rem;
+    top: 5.6rem;
+    left: 23.5rem;
     background:transparent;
 }
 
 #user-img img{
     border-radius: 50%;
     width: 270px;
+    height: 260px;
 }
 
 #user-img span {
