@@ -87,6 +87,10 @@
     text-transform: capitalize;
 }
 
+.info-container h4{
+    text-transform: capitalize;
+}
+
 /* --------- In profile Page ---------- */
 .read-card{
     height: 400px;
