@@ -16,7 +16,7 @@ This is solved ny refreshing the page.
 * If the user is not registered to the store, the sites acts as a regular e-commerce website.
 * A registered user can "sell" products, write a review on different book and build his own personal library.
 * An admin user can update and delete all books on the website. In addition, he can add new generes for books.
-* The database is stored in Mongo Atlas
+* The database is stored in Mongo Atlas.
 
 ## Technology used
 * Frontend was built in React and styled with CSS.
