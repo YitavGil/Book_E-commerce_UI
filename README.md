@@ -10,7 +10,7 @@ Link to the app:
 https://bookstore-e-commerce-client.herokuapp.com/
 
 -Due to some issues with heroku server, the browser may show a message that you are not authenticated.
-This is solved ny refreshing the page.
+This is solved by refreshing the page.
 
 ## features
 * If the user is not registered to the store, the sites acts as a regular e-commerce website.
