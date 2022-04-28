@@ -17,7 +17,7 @@ const ReviewItem = (props) => {
           <h3>{props.review.user.name}</h3>
           <p>{props.review.content}</p>
             <button onClick={deleteReview}>Delete</button>
-            <button className='review-update' onClick={updateReview}>Edit</button>
+            {/* <button className='review-update' onClick={updateReview}>Edit</button> */}
       </div>
   )
 };
